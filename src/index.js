@@ -1,6 +1,7 @@
+// a small change :)
+
 // 1 - pull in the HTTP server module
 const http = require('http');
-//const { title } = require('process');
 
 // 2 - locally this will be 3000, on Heroku it will be assigned
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
@@ -17,7 +18,7 @@ const index = `
             <title>First Node Page</title>
         </head>
         <body>
-            <h1>First Node Page!</h1>
+            <h1>First Node Page by Anna Conway!</h1>
         </body>
     </html>`;
 
